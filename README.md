@@ -17,4 +17,6 @@ python app.py
 
 ## IN PROGRESS
 - flask server
-- database
+- database  
+
+## When editing/working on some modules, please use your own branch (away from master). Then, do a pull request.
