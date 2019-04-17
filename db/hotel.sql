@@ -1,0 +1,12 @@
+-- SJSU CMPE 226 Spring 2019 TEAM7
+DROP DATABASE IF EXISTS hotel;
+CREATE DATABASE hotel;
+USE hotel;
+
+CREATE TABLE hotel_user(
+	userID MEDIUMINT NOT NULL AUTO_INCREMENT,
+    userName VARCHAR(20) NOT NULL,
+    userUserName VARCHAR(20) NOT NULL,
+    userPassword VARCHAR(20) NOT NULL,
+    PRIMARY KEY(userID)
+);
